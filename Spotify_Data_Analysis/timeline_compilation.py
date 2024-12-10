@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-CLIENT_ID = '58dbaea9e05d494ba5d03e2cc0303669'
-CLIENT_SECRET = '1b0aa3e7702f4919bcc425ccd849d83e'
+CLIENT_ID = "PUT YOUR OWN KEYS"
+CLIENT_SECRET = "PUT YOUR OWN KEYS"
 
 auth_manager = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 sp = spotipy.Spotify(auth_manager=auth_manager)
